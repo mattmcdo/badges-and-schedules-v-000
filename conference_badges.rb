@@ -15,3 +15,6 @@ def assign_rooms(room_assignments)
   room_assignments.each_with_index {|person, index| new_list << "Hello, #{person}! You'll be assigned to room #{index+1}!"}
     new_list
 end
+
+def printer
+end
