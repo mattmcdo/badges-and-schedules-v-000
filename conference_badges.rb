@@ -17,4 +17,6 @@ def assign_rooms(room_assignments)
 end
 
 def printer(attendees)
+  new_list = []
+  attendees.each {|person| new_list << "Hello, my name is #{name}."}
 end
