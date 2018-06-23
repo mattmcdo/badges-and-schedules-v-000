@@ -1,5 +1,6 @@
 # Write your code here.
 def badge_maker(name)
+<<<<<<< HEAD
   "Hello, my name is #{name}."
 end
 
@@ -24,4 +25,8 @@ result_two = assign_rooms(attendees)
 attendees.each_with_index do |x, y|
 puts "Hello, #{x}! You'll be assigned to room #{y + 1}!"
 end
+=======
+  puts "Hello, my name is #{name}"
+  badge_maker(name)
+>>>>>>> 2dc30b37ac3df0d91be06ccc96f18ccad9841a64
 end
