@@ -18,5 +18,6 @@ end
 
 def printer(attendees)
   new_list = []
-new_list << batch_badge_creator(attendees)
+puts new_list << batch_badge_creator(attendees)
+new_list  
 end
