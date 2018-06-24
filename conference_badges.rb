@@ -19,5 +19,5 @@ end
 def printer(attendees)
   new_list = []
   attendees.each {|badges| new_list << "Hello, my name is #{badges}."}
-  batch_badge_creator(attendees)
+puts batch_badge_creator(attendees)
 end
