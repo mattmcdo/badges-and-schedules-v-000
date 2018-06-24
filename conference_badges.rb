@@ -16,7 +16,7 @@ def assign_rooms(room_assignments)
     new_list
 end
 
-def printer(attendees, room_assignments)
+def printer(attendees)
   new_list = []
   new_list_2 = []
   index = 1
