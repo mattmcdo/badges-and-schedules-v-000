@@ -18,6 +18,6 @@ end
 
 def printer(attendees)
   new_list = []
-  attendees.each {|person| new_list << batch_badge_creator(person)}
+  attendees.each_with_index {|person,index| new_list << batch_badge_creator(person,index)}
 new_list
 end
