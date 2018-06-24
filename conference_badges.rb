@@ -16,11 +16,7 @@ def assign_rooms(room_assignments)
     new_list
 end
 
-def printer(attendees, room_assignments)
-  new_list = []
-  new_list_2 = []
-  attendees.each {|person| new_list << batch_badge_creator(person)}
-  room_assignments.each_with_index {|person, index| new_list_2 << assign_rooms(room_assignments)}  
-new_list
-new_list_2
+def printer(assign_rooms(room_assignments))
+room_assignments.each_with_index {|person, index| new_list << "Hello, #{person}! You'll be assigned to room #{index+1}!"}
+  
 end
