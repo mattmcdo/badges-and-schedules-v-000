@@ -16,6 +16,8 @@ def assign_rooms(room_assignments)
     new_list
 end
 
-def printer(attendees,index)
-puts batch_badge_creator(attendees)[index]
+def printer(attendees)
+  new_list = []
+new_list << batch_badge_creator(attendees)
+new_list
 end
