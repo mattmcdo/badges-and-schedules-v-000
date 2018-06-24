@@ -16,7 +16,11 @@ def assign_rooms(room_assignments)
     new_list
 end
 
-def printer(assign_rooms(room_assignments))
-room_assignments.each_with_index {|person, index| new_list << "Hello, #{person}! You'll be assigned to room #{index+1}!"}
-  
+def printer(attendees)
+  batch_badge_creator(attendees).each do |badge|
+    puts badge
+  end
+
+  assign_rooms(attendees).each do |assignment|
+    puts assignment  
 end
