@@ -21,7 +21,7 @@ def printer(attendees, room_assignments)
   new_list_2 = []
   index = 1
   attendees.each {|badges| new_list << "Hello, my name is #{badges}."}
-  room_assignments.each_with_index {|person, index| new_list_2 << "Hello, #{person}! You'll be assigned to room #{index+1}!"}
   new_list
+  room_assignments.each_with_index {|person, index| new_list_2 << "Hello, #{person}! You'll be assigned to room #{index+1}!"}
   new_list_2
 end
